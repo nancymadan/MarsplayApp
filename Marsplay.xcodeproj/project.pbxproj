@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		633422DF216007FB00104320 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633422DE216007FB00104320 /* AppDelegate.swift */; };
+		633422E1216007FB00104320 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633422E0216007FB00104320 /* ViewController.swift */; };
+		633422E4216007FB00104320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633422E2216007FB00104320 /* Main.storyboard */; };
+		633422E7216007FB00104320 /* Marsplay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 633422E5216007FB00104320 /* Marsplay.xcdatamodeld */; };
+		633422E9216007FD00104320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633422E8216007FD00104320 /* Assets.xcassets */; };
+		633422EC216007FD00104320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633422EA216007FD00104320 /* LaunchScreen.storyboard */; };
+		633422F7216007FD00104320 /* MarsplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633422F6216007FD00104320 /* MarsplayTests.swift */; };
+		63342302216007FD00104320 /* MarsplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63342301216007FD00104320 /* MarsplayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		633422F3216007FD00104320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 633422D3216007FB00104320 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 633422DA216007FB00104320;
+			remoteInfo = Marsplay;
+		};
+		633422FE216007FD00104320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 633422D3216007FB00104320 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 633422DA216007FB00104320;
+			remoteInfo = Marsplay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		633422DB216007FB00104320 /* Marsplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marsplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		633422DE216007FB00104320 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		633422E0216007FB00104320 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		633422E3216007FB00104320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		633422E6216007FB00104320 /* Marsplay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Marsplay.xcdatamodel; sourceTree = "<group>"; };
+		633422E8216007FD00104320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		633422EB216007FD00104320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		633422ED216007FD00104320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633422F2216007FD00104320 /* MarsplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		633422F6216007FD00104320 /* MarsplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsplayTests.swift; sourceTree = "<group>"; };
+		633422F8216007FD00104320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633422FD216007FD00104320 /* MarsplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63342301216007FD00104320 /* MarsplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsplayUITests.swift; sourceTree = "<group>"; };
+		63342303216007FD00104320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		633422D8216007FB00104320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633422EF216007FD00104320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633422FA216007FD00104320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		633422D2216007FB00104320 = {
+			isa = PBXGroup;
+			children = (
+				633422DD216007FB00104320 /* Marsplay */,
+				633422F5216007FD00104320 /* MarsplayTests */,
+				63342300216007FD00104320 /* MarsplayUITests */,
+				633422DC216007FB00104320 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		633422DC216007FB00104320 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				633422DB216007FB00104320 /* Marsplay.app */,
+				633422F2216007FD00104320 /* MarsplayTests.xctest */,
+				633422FD216007FD00104320 /* MarsplayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		633422DD216007FB00104320 /* Marsplay */ = {
+			isa = PBXGroup;
+			children = (
+				633422DE216007FB00104320 /* AppDelegate.swift */,
+				633422E0216007FB00104320 /* ViewController.swift */,
+				633422E2216007FB00104320 /* Main.storyboard */,
+				633422E8216007FD00104320 /* Assets.xcassets */,
+				633422EA216007FD00104320 /* LaunchScreen.storyboard */,
+				633422ED216007FD00104320 /* Info.plist */,
+				633422E5216007FB00104320 /* Marsplay.xcdatamodeld */,
+			);
+			path = Marsplay;
+			sourceTree = "<group>";
+		};
+		633422F5216007FD00104320 /* MarsplayTests */ = {
+			isa = PBXGroup;
+			children = (
+				633422F6216007FD00104320 /* MarsplayTests.swift */,
+				633422F8216007FD00104320 /* Info.plist */,
+			);
+			path = MarsplayTests;
+			sourceTree = "<group>";
+		};
+		63342300216007FD00104320 /* MarsplayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63342301216007FD00104320 /* MarsplayUITests.swift */,
+				63342303216007FD00104320 /* Info.plist */,
+			);
+			path = MarsplayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		633422DA216007FB00104320 /* Marsplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63342306216007FD00104320 /* Build configuration list for PBXNativeTarget "Marsplay" */;
+			buildPhases = (
+				633422D7216007FB00104320 /* Sources */,
+				633422D8216007FB00104320 /* Frameworks */,
+				633422D9216007FB00104320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marsplay;
+			productName = Marsplay;
+			productReference = 633422DB216007FB00104320 /* Marsplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		633422F1216007FD00104320 /* MarsplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63342309216007FD00104320 /* Build configuration list for PBXNativeTarget "MarsplayTests" */;
+			buildPhases = (
+				633422EE216007FD00104320 /* Sources */,
+				633422EF216007FD00104320 /* Frameworks */,
+				633422F0216007FD00104320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				633422F4216007FD00104320 /* PBXTargetDependency */,
+			);
+			name = MarsplayTests;
+			productName = MarsplayTests;
+			productReference = 633422F2216007FD00104320 /* MarsplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		633422FC216007FD00104320 /* MarsplayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6334230C216007FD00104320 /* Build configuration list for PBXNativeTarget "MarsplayUITests" */;
+			buildPhases = (
+				633422F9216007FD00104320 /* Sources */,
+				633422FA216007FD00104320 /* Frameworks */,
+				633422FB216007FD00104320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				633422FF216007FD00104320 /* PBXTargetDependency */,
+			);
+			name = MarsplayUITests;
+			productName = MarsplayUITests;
+			productReference = 633422FD216007FD00104320 /* MarsplayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		633422D3216007FB00104320 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = NancyM;
+				TargetAttributes = {
+					633422DA216007FB00104320 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					633422F1216007FD00104320 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 633422DA216007FB00104320;
+					};
+					633422FC216007FD00104320 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 633422DA216007FB00104320;
+					};
+				};
+			};
+			buildConfigurationList = 633422D6216007FB00104320 /* Build configuration list for PBXProject "Marsplay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 633422D2216007FB00104320;
+			productRefGroup = 633422DC216007FB00104320 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				633422DA216007FB00104320 /* Marsplay */,
+				633422F1216007FD00104320 /* MarsplayTests */,
+				633422FC216007FD00104320 /* MarsplayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		633422D9216007FB00104320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633422EC216007FD00104320 /* LaunchScreen.storyboard in Resources */,
+				633422E9216007FD00104320 /* Assets.xcassets in Resources */,
+				633422E4216007FB00104320 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633422F0216007FD00104320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633422FB216007FD00104320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		633422D7216007FB00104320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633422E1216007FB00104320 /* ViewController.swift in Sources */,
+				633422E7216007FB00104320 /* Marsplay.xcdatamodeld in Sources */,
+				633422DF216007FB00104320 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633422EE216007FD00104320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633422F7216007FD00104320 /* MarsplayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633422F9216007FD00104320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63342302216007FD00104320 /* MarsplayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		633422F4216007FD00104320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 633422DA216007FB00104320 /* Marsplay */;
+			targetProxy = 633422F3216007FD00104320 /* PBXContainerItemProxy */;
+		};
+		633422FF216007FD00104320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 633422DA216007FB00104320 /* Marsplay */;
+			targetProxy = 633422FE216007FD00104320 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		633422E2216007FB00104320 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633422E3216007FB00104320 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		633422EA216007FD00104320 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633422EB216007FD00104320 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63342304216007FD00104320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63342305216007FD00104320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63342307216007FD00104320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Marsplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Marsplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63342308216007FD00104320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Marsplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Marsplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6334230A216007FD00104320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarsplayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MarsplayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marsplay.app/Marsplay";
+			};
+			name = Debug;
+		};
+		6334230B216007FD00104320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarsplayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MarsplayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marsplay.app/Marsplay";
+			};
+			name = Release;
+		};
+		6334230D216007FD00104320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarsplayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MarsplayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Marsplay;
+			};
+			name = Debug;
+		};
+		6334230E216007FD00104320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarsplayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.MarsplayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Marsplay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		633422D6216007FB00104320 /* Build configuration list for PBXProject "Marsplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63342304216007FD00104320 /* Debug */,
+				63342305216007FD00104320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63342306216007FD00104320 /* Build configuration list for PBXNativeTarget "Marsplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63342307216007FD00104320 /* Debug */,
+				63342308216007FD00104320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63342309216007FD00104320 /* Build configuration list for PBXNativeTarget "MarsplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6334230A216007FD00104320 /* Debug */,
+				6334230B216007FD00104320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6334230C216007FD00104320 /* Build configuration list for PBXNativeTarget "MarsplayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6334230D216007FD00104320 /* Debug */,
+				6334230E216007FD00104320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		633422E5216007FB00104320 /* Marsplay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				633422E6216007FB00104320 /* Marsplay.xcdatamodel */,
+			);
+			currentVersion = 633422E6216007FB00104320 /* Marsplay.xcdatamodel */;
+			path = Marsplay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 633422D3216007FB00104320 /* Project object */;
+}
