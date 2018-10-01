@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		633422DF216007FB00104320 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633422DE216007FB00104320 /* AppDelegate.swift */; };
-		633422E1216007FB00104320 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633422E0216007FB00104320 /* ViewController.swift */; };
-		633422E4216007FB00104320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633422E2216007FB00104320 /* Main.storyboard */; };
 		633422E7216007FB00104320 /* Marsplay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 633422E5216007FB00104320 /* Marsplay.xcdatamodeld */; };
 		633422E9216007FD00104320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633422E8216007FD00104320 /* Assets.xcassets */; };
-		633422EC216007FD00104320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633422EA216007FD00104320 /* LaunchScreen.storyboard */; };
 		633422F7216007FD00104320 /* MarsplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633422F6216007FD00104320 /* MarsplayTests.swift */; };
 		63342302216007FD00104320 /* MarsplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63342301216007FD00104320 /* MarsplayUITests.swift */; };
+		6391584921600D3D00BF5CC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6391584421600D3D00BF5CC9 /* AppDelegate.swift */; };
+		6391584A21600D3D00BF5CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6391584721600D3D00BF5CC9 /* LaunchScreen.storyboard */; };
+		6391584B21600D3D00BF5CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6391584821600D3D00BF5CC9 /* Main.storyboard */; };
+		6391584E21600D7100BF5CC9 /* MarsplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6391584D21600D7100BF5CC9 /* MarsplayModel.swift */; };
+		6391585021600D8C00BF5CC9 /* MarsplayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6391584F21600D8C00BF5CC9 /* MarsplayListViewController.swift */; };
+		6391585221600D9C00BF5CC9 /* MarsplayDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6391585121600D9C00BF5CC9 /* MarsplayDetailViewController.swift */; };
+		6391585521600F4100BF5CC9 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6391585421600F4100BF5CC9 /* ApiRequest.swift */; };
+		639158582160118A00BF5CC9 /* MarsplayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639158572160118A00BF5CC9 /* MarsplayViewModel.swift */; };
+		6391585C2160137400BF5CC9 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6391585A2160137400BF5CC9 /* LoaderView.swift */; };
+		6391585D2160137400BF5CC9 /* LoaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6391585B2160137400BF5CC9 /* LoaderView.xib */; };
+		639158612160139400BF5CC9 /* CommonFuncations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6391585F2160139400BF5CC9 /* CommonFuncations.swift */; };
+		639158652160140700BF5CC9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639158642160140700BF5CC9 /* Constants.swift */; };
+		639158672160161E00BF5CC9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639158662160161E00BF5CC9 /* Extensions.swift */; };
+		6391586A21601A9C00BF5CC9 /* MarsplayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6391586921601A9C00BF5CC9 /* MarsplayCollectionViewCell.swift */; };
+		7395BD38D13306A5D6369CF0 /* Pods_Marsplay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF07A89386ACA55FF5FFED5 /* Pods_Marsplay.framework */; };
+		966154704DA28385CE5BEB86 /* Pods_MarsplayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DE87B2CA3E4F8B41E7BBFC /* Pods_MarsplayTests.framework */; };
+		979BABA9D90FE1C71CC94CA4 /* Pods_MarsplayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C456EE5FD0C45CE7716F48B /* Pods_MarsplayUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C456EE5FD0C45CE7716F48B /* Pods_MarsplayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsplayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		144E4495C73645A3DEDDAA80 /* Pods-Marsplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marsplay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Marsplay/Pods-Marsplay.debug.xcconfig"; sourceTree = "<group>"; };
+		29DE87B2CA3E4F8B41E7BBFC /* Pods_MarsplayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsplayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43347A313CA7AC1C1E47AA8D /* Pods-MarsplayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsplayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarsplayTests/Pods-MarsplayTests.release.xcconfig"; sourceTree = "<group>"; };
+		5124B44C48B910ED369A1645 /* Pods-Marsplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marsplay.release.xcconfig"; path = "Pods/Target Support Files/Pods-Marsplay/Pods-Marsplay.release.xcconfig"; sourceTree = "<group>"; };
+		63152F3B2160B31800A3F1A0 /* Marsplay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Marsplay-Bridging-Header.h"; sourceTree = "<group>"; };
 		633422DB216007FB00104320 /* Marsplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marsplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		633422DE216007FB00104320 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		633422E0216007FB00104320 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		633422E3216007FB00104320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		633422E6216007FB00104320 /* Marsplay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Marsplay.xcdatamodel; sourceTree = "<group>"; };
 		633422E8216007FD00104320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		633422EB216007FD00104320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		633422ED216007FD00104320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		633422F2216007FD00104320 /* MarsplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		633422F6216007FD00104320 /* MarsplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsplayTests.swift; sourceTree = "<group>"; };
@@ -49,6 +64,24 @@
 		633422FD216007FD00104320 /* MarsplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63342301216007FD00104320 /* MarsplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsplayUITests.swift; sourceTree = "<group>"; };
 		63342303216007FD00104320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6391584421600D3D00BF5CC9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6391584721600D3D00BF5CC9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6391584821600D3D00BF5CC9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6391584D21600D7100BF5CC9 /* MarsplayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsplayModel.swift; sourceTree = "<group>"; };
+		6391584F21600D8C00BF5CC9 /* MarsplayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsplayListViewController.swift; sourceTree = "<group>"; };
+		6391585121600D9C00BF5CC9 /* MarsplayDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsplayDetailViewController.swift; sourceTree = "<group>"; };
+		6391585421600F4100BF5CC9 /* ApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		639158572160118A00BF5CC9 /* MarsplayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsplayViewModel.swift; sourceTree = "<group>"; };
+		6391585A2160137400BF5CC9 /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		6391585B2160137400BF5CC9 /* LoaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoaderView.xib; sourceTree = "<group>"; };
+		6391585F2160139400BF5CC9 /* CommonFuncations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFuncations.swift; sourceTree = "<group>"; };
+		639158642160140700BF5CC9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		639158662160161E00BF5CC9 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6391586921601A9C00BF5CC9 /* MarsplayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsplayCollectionViewCell.swift; sourceTree = "<group>"; };
+		7ED6584E3E7027B1F161853C /* Pods-MarsplayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsplayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarsplayUITests/Pods-MarsplayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9BF07A89386ACA55FF5FFED5 /* Pods_Marsplay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marsplay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69115FC42B56B05D0C177E3 /* Pods-MarsplayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsplayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarsplayTests/Pods-MarsplayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4082C34763F09AA6A4DD043 /* Pods-MarsplayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsplayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarsplayUITests/Pods-MarsplayUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7395BD38D13306A5D6369CF0 /* Pods_Marsplay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				966154704DA28385CE5BEB86 /* Pods_MarsplayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				979BABA9D90FE1C71CC94CA4 /* Pods_MarsplayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +119,8 @@
 				633422F5216007FD00104320 /* MarsplayTests */,
 				63342300216007FD00104320 /* MarsplayUITests */,
 				633422DC216007FB00104320 /* Products */,
+				A4AB365EC2E13D4CBBED50BC /* Pods */,
+				CECA0A985700664AF7853AEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +137,17 @@
 		633422DD216007FB00104320 /* Marsplay */ = {
 			isa = PBXGroup;
 			children = (
-				633422DE216007FB00104320 /* AppDelegate.swift */,
-				633422E0216007FB00104320 /* ViewController.swift */,
-				633422E2216007FB00104320 /* Main.storyboard */,
+				639158662160161E00BF5CC9 /* Extensions.swift */,
+				63915863216013F600BF5CC9 /* Constants */,
+				6391585E2160139400BF5CC9 /* CommonFuncations */,
+				639158562160116E00BF5CC9 /* ViewModels */,
+				6391585321600F4100BF5CC9 /* ApiRequestHandler */,
+				6391584C21600D5E00BF5CC9 /* Model */,
+				6391584221600D3D00BF5CC9 /* BusinessLayer */,
 				633422E8216007FD00104320 /* Assets.xcassets */,
-				633422EA216007FD00104320 /* LaunchScreen.storyboard */,
 				633422ED216007FD00104320 /* Info.plist */,
 				633422E5216007FB00104320 /* Marsplay.xcdatamodeld */,
+				63152F3B2160B31800A3F1A0 /* Marsplay-Bridging-Header.h */,
 			);
 			path = Marsplay;
 			sourceTree = "<group>";
@@ -128,6 +170,124 @@
 			path = MarsplayUITests;
 			sourceTree = "<group>";
 		};
+		6391584221600D3D00BF5CC9 /* BusinessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				6391586821601A7D00BF5CC9 /* UICollectionViewCells */,
+				6391584321600D3D00BF5CC9 /* AppDelegate */,
+				6391584521600D3D00BF5CC9 /* ViewControllers */,
+				6391584621600D3D00BF5CC9 /* Views */,
+			);
+			path = BusinessLayer;
+			sourceTree = "<group>";
+		};
+		6391584321600D3D00BF5CC9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6391584421600D3D00BF5CC9 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6391584521600D3D00BF5CC9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6391584F21600D8C00BF5CC9 /* MarsplayListViewController.swift */,
+				6391585121600D9C00BF5CC9 /* MarsplayDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6391584621600D3D00BF5CC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				639158592160137400BF5CC9 /* LoaderView */,
+				6391584721600D3D00BF5CC9 /* LaunchScreen.storyboard */,
+				6391584821600D3D00BF5CC9 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6391584C21600D5E00BF5CC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6391584D21600D7100BF5CC9 /* MarsplayModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6391585321600F4100BF5CC9 /* ApiRequestHandler */ = {
+			isa = PBXGroup;
+			children = (
+				6391585421600F4100BF5CC9 /* ApiRequest.swift */,
+			);
+			path = ApiRequestHandler;
+			sourceTree = "<group>";
+		};
+		639158562160116E00BF5CC9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				639158572160118A00BF5CC9 /* MarsplayViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		639158592160137400BF5CC9 /* LoaderView */ = {
+			isa = PBXGroup;
+			children = (
+				6391585A2160137400BF5CC9 /* LoaderView.swift */,
+				6391585B2160137400BF5CC9 /* LoaderView.xib */,
+			);
+			path = LoaderView;
+			sourceTree = "<group>";
+		};
+		6391585E2160139400BF5CC9 /* CommonFuncations */ = {
+			isa = PBXGroup;
+			children = (
+				6391585F2160139400BF5CC9 /* CommonFuncations.swift */,
+			);
+			path = CommonFuncations;
+			sourceTree = "<group>";
+		};
+		63915863216013F600BF5CC9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				639158642160140700BF5CC9 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		6391586821601A7D00BF5CC9 /* UICollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				6391586921601A9C00BF5CC9 /* MarsplayCollectionViewCell.swift */,
+			);
+			path = UICollectionViewCells;
+			sourceTree = "<group>";
+		};
+		A4AB365EC2E13D4CBBED50BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				144E4495C73645A3DEDDAA80 /* Pods-Marsplay.debug.xcconfig */,
+				5124B44C48B910ED369A1645 /* Pods-Marsplay.release.xcconfig */,
+				C69115FC42B56B05D0C177E3 /* Pods-MarsplayTests.debug.xcconfig */,
+				43347A313CA7AC1C1E47AA8D /* Pods-MarsplayTests.release.xcconfig */,
+				E4082C34763F09AA6A4DD043 /* Pods-MarsplayUITests.debug.xcconfig */,
+				7ED6584E3E7027B1F161853C /* Pods-MarsplayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CECA0A985700664AF7853AEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BF07A89386ACA55FF5FFED5 /* Pods_Marsplay.framework */,
+				29DE87B2CA3E4F8B41E7BBFC /* Pods_MarsplayTests.framework */,
+				0C456EE5FD0C45CE7716F48B /* Pods_MarsplayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63342306216007FD00104320 /* Build configuration list for PBXNativeTarget "Marsplay" */;
 			buildPhases = (
+				3C0910ED36986E388E523B25 /* [CP] Check Pods Manifest.lock */,
 				633422D7216007FB00104320 /* Sources */,
 				633422D8216007FB00104320 /* Frameworks */,
 				633422D9216007FB00104320 /* Resources */,
+				2183828D24BB404C9EFAED11 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +314,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63342309216007FD00104320 /* Build configuration list for PBXNativeTarget "MarsplayTests" */;
 			buildPhases = (
+				0529F267D286D6A086D408A3 /* [CP] Check Pods Manifest.lock */,
 				633422EE216007FD00104320 /* Sources */,
 				633422EF216007FD00104320 /* Frameworks */,
 				633422F0216007FD00104320 /* Resources */,
@@ -170,6 +333,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6334230C216007FD00104320 /* Build configuration list for PBXNativeTarget "MarsplayUITests" */;
 			buildPhases = (
+				C01E744BC220BEB5F9D6E83C /* [CP] Check Pods Manifest.lock */,
 				633422F9216007FD00104320 /* Sources */,
 				633422FA216007FD00104320 /* Frameworks */,
 				633422FB216007FD00104320 /* Resources */,
@@ -196,6 +360,7 @@
 				TargetAttributes = {
 					633422DA216007FB00104320 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					633422F1216007FD00104320 = {
 						CreatedOnToolsVersion = 10.0;
@@ -232,9 +397,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				633422EC216007FD00104320 /* LaunchScreen.storyboard in Resources */,
+				6391584B21600D3D00BF5CC9 /* Main.storyboard in Resources */,
+				6391585D2160137400BF5CC9 /* LoaderView.xib in Resources */,
 				633422E9216007FD00104320 /* Assets.xcassets in Resources */,
-				633422E4216007FB00104320 /* Main.storyboard in Resources */,
+				6391584A21600D3D00BF5CC9 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +420,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0529F267D286D6A086D408A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsplayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2183828D24BB404C9EFAED11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Marsplay/Pods-Marsplay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/IDMPhotoBrowser/IDMPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/KDLoadingView/KDLoadingView.framework",
+				"${BUILT_PRODUCTS_DIR}/LoadingPlaceholderView/LoadingPlaceholderView.framework",
+				"${BUILT_PRODUCTS_DIR}/RMPZoomTransitionAnimator/RMPZoomTransitionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVPullToRefresh/SVPullToRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IDMPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDLoadingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LoadingPlaceholderView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RMPZoomTransitionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVPullToRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Marsplay/Pods-Marsplay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C0910ED36986E388E523B25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Marsplay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C01E744BC220BEB5F9D6E83C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsplayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		633422D7216007FB00104320 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				633422E1216007FB00104320 /* ViewController.swift in Sources */,
+				6391584E21600D7100BF5CC9 /* MarsplayModel.swift in Sources */,
+				6391585221600D9C00BF5CC9 /* MarsplayDetailViewController.swift in Sources */,
+				639158612160139400BF5CC9 /* CommonFuncations.swift in Sources */,
+				6391585521600F4100BF5CC9 /* ApiRequest.swift in Sources */,
+				6391584921600D3D00BF5CC9 /* AppDelegate.swift in Sources */,
+				639158652160140700BF5CC9 /* Constants.swift in Sources */,
+				6391586A21601A9C00BF5CC9 /* MarsplayCollectionViewCell.swift in Sources */,
+				639158582160118A00BF5CC9 /* MarsplayViewModel.swift in Sources */,
+				6391585C2160137400BF5CC9 /* LoaderView.swift in Sources */,
+				6391585021600D8C00BF5CC9 /* MarsplayListViewController.swift in Sources */,
+				639158672160161E00BF5CC9 /* Extensions.swift in Sources */,
 				633422E7216007FB00104320 /* Marsplay.xcdatamodeld in Sources */,
-				633422DF216007FB00104320 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +577,6 @@
 			targetProxy = 633422FE216007FD00104320 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		633422E2216007FB00104320 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				633422E3216007FB00104320 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		633422EA216007FD00104320 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				633422EB216007FD00104320 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		63342304216007FD00104320 /* Debug */ = {
@@ -434,16 +697,22 @@
 		};
 		63342307216007FD00104320 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144E4495C73645A3DEDDAA80 /* Pods-Marsplay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DL5M8RMDC;
 				INFOPLIST_FILE = Marsplay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.Marsplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Marsplay/Marsplay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,16 +720,21 @@
 		};
 		63342308216007FD00104320 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5124B44C48B910ED369A1645 /* Pods-Marsplay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DL5M8RMDC;
 				INFOPLIST_FILE = Marsplay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.Marsplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Marsplay/Marsplay-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +742,7 @@
 		};
 		6334230A216007FD00104320 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C69115FC42B56B05D0C177E3 /* Pods-MarsplayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +763,7 @@
 		};
 		6334230B216007FD00104320 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43347A313CA7AC1C1E47AA8D /* Pods-MarsplayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +784,7 @@
 		};
 		6334230D216007FD00104320 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4082C34763F09AA6A4DD043 /* Pods-MarsplayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +804,7 @@
 		};
 		6334230E216007FD00104320 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED6584E3E7027B1F161853C /* Pods-MarsplayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

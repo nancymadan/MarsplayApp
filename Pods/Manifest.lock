@@ -1,0 +1,60 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Crashlytics (3.10.8):
+    - Fabric (~> 1.7.12)
+  - DACircularProgress (2.3.1)
+  - Fabric (1.7.12)
+  - IDMPhotoBrowser (1.10.2):
+    - DACircularProgress
+    - pop
+    - SDWebImage
+  - KDLoadingView (1.0.4)
+  - LoadingPlaceholderView (0.0.2)
+  - pop (1.0.10)
+  - RMPZoomTransitionAnimator (1.0.3)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SVPullToRefresh (0.4.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Crashlytics
+  - Fabric
+  - IDMPhotoBrowser
+  - KDLoadingView
+  - LoadingPlaceholderView
+  - RMPZoomTransitionAnimator
+  - SDWebImage
+  - SVPullToRefresh
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Crashlytics
+    - DACircularProgress
+    - Fabric
+    - IDMPhotoBrowser
+    - KDLoadingView
+    - LoadingPlaceholderView
+    - pop
+    - RMPZoomTransitionAnimator
+    - SDWebImage
+    - SVPullToRefresh
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Crashlytics: 058dc1ba579f6c100bc60a6878703779bff383c4
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  Fabric: d7387db9a31aadff63b147a4b91d982c53afaa4f
+  IDMPhotoBrowser: 4bb459b1faffc228e92bccdf7c54ad6d6b7e8c37
+  KDLoadingView: fcb015daf91c245f0a212fd52b8061621f421dfe
+  LoadingPlaceholderView: e913f5ae2673612d405ce395acca7cedb1bfaa81
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  RMPZoomTransitionAnimator: 33ded739d91052810c05c8e553663cc9ec79275b
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+
+PODFILE CHECKSUM: ed3cb56857b33214ed7b5107cce286a07d423d8e
+
+COCOAPODS: 1.5.3
